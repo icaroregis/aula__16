@@ -34,6 +34,7 @@ function calculaFatorial(numeroFatorial) {
 
 calculaFatorial(5);
 
+/* sem loop */
 const fatorialSemLoop = (valor) => {
   if (valor > 1) {
     return valor * fatorialSemLoop(valor - 1);
