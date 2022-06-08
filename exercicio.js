@@ -33,3 +33,10 @@ function calculaFatorial(numeroFatorial) {
 }
 
 calculaFatorial(5);
+
+const fatorialSemLoop = (valor) => {
+  if (valor > 1) {
+    return valor * fatorialSemLoop(valor - 1);
+  }
+  console.log(valor);
+};
